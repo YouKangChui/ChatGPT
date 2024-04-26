@@ -43,7 +43,8 @@ ENGINES = [
     "llama3-70b-8192",
     "llama3-8b-8192",
     "llama2-70b-4096",
-    
+    "gemma-7b-it",
+    "mixtral-8x7b-32768"
 ]
 
 
