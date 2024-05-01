@@ -10,7 +10,7 @@ if not PATH.exists():
         with open(PATH, "w+", encoding="utf-8") as f2:
             f2.write(f1.read())
 
-VERSION_PATH = Path(__file__).parents[0] / "src/revChatGPT/version.py"
+VERSION_PATH = Path(__file__).parents[0] / "src/revChatGPT2/version.py"
 with open(VERSION_PATH, encoding="utf-8") as f:
     version = f.read().split('"')[1]
 
