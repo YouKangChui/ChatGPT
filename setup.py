@@ -15,7 +15,7 @@ with open(VERSION_PATH, encoding="utf-8") as f:
     version = f.read().split('"')[1]
 
 setup(
-    name="revChatGPT",
+    name="revChatGPT2",
     version=version,
     description="ChatGPT is a reverse engineering of OpenAI's ChatGPT API",
     long_description=open(PATH, encoding="utf-8").read(),
@@ -30,7 +30,7 @@ setup(
     license="GNU General Public License v2.0",
     packages=find_namespace_packages("src"),
     package_dir={"": "src"},
-    py_modules=["revChatGPT"],
+    py_modules=["revChatGPT2"],
     package_data={"": ["*.json"]},
     install_requires=[
         "OpenAIAuth>=3.0.0",
