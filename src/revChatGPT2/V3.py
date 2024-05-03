@@ -47,7 +47,8 @@ ENGINES = [
     "mixtral-8x7b-32768",
     "claude-3-opus-20240229",
     "claude-3-sonnet-20240229",
-    "claude-3-haiku-20240307"
+    "claude-3-haiku-20240307",
+    "claude_3_opus"
 ]
 
 
