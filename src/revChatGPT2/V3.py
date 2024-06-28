@@ -53,7 +53,8 @@ ENGINES = [
     "claude-3-5-sonnet-20240620",
     "claude-3.5-sonnet-20240620",
     "claude-3-5-sonnet@20240620",
-    "gpt-4o"
+    "gpt-4o",
+    "gpt-4o-2024-05-13"
 ]
 
 
